@@ -1,4 +1,4 @@
-import { Point } from "../Point"
+import Point from "../Point";
 export function getDistance(a: Point, b: Point) {
   if (b.x === a.x && b.y !== a.y) {
     return b.y - a.y;
