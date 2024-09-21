@@ -1,5 +1,5 @@
-import { Point } from "./Point"
-export class Line {
+import Point from "./Point";
+export default class Line {
   label: String;
   constructor(public readonly a: Point, public readonly b: Point) {
     this.a = a;
