@@ -1,5 +1,4 @@
-
-export class Canvas {
+export default class Canvas {
   height: Number;
   width: Number;
   id: String;
@@ -8,7 +7,7 @@ export class Canvas {
     this.width = width;
     this.id = id;
   }
-  draw(){
-    return `<svg viewbox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' height="${this.height}vmin' width="${this.width}vmin" id="${this.id}"> </svg>`
+  draw() {
+    return `<svg viewbox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' height="${this.height}vmin' width="${this.width}vmin" id="${this.id}"> </svg>`;
   }
 }
