@@ -8,10 +8,15 @@ A primary task will be working from the definitions, axioms, and postulates. The
 
 ## Workflow revamp
 
-1. Establish project foundations
+1. Establish project foundations --> **Current Sprint**
    - layers and display port
    - state and storage of points and elements (rudimentary)
    - switch focus to the artboard and how the shape is held in memory etc
+   - Definition of Done:
+   - Can open up an svg frame in a browser (svg frame is static in html file at this point)
+   - Can create a layer which can hold a path on a frame
+   - Can make paths that are points or lines between 2 points on layers
+   - layer and path stays
 2. Switch back to building out the basic postulates and a few definitions
    - they can now best tested effectively
    - have a place where we can make sure our usage of definitions and axiomatic principles can used in a meaningful way
